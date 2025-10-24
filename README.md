@@ -6,12 +6,25 @@ bibliography:
 title: Beginner at C/C++
 ---
 
-# Beginner at C/C++
+# Introduction to C++
 
-This is a repository for beginner-level code in the C/C++ programming
-languages. I am changing the target language from Golang to C after
-having some thoughts and deciding what would be more useful for the
-career path I intend to take and what I am passionate about.
+## What is C++
+
+C++ is a object oriented programming language being used in the most
+diverse applications. For this reason it is called a **general purpose
+language**. It is a superset of C, being a extension including object
+oriented features that C lacks.
+
+## Why use C++
+
+I’ve taken a liking to C/C++ because of the career path I intend to
+take. I want to work with GPU development, with the development of
+software much more closely to hardware. I like machine learning and want
+to work with algorithm optimization aswell. We’ll see how this will turn
+out. I intend to write these notes with C++ in mind because it seems the
+more suitable from a market perspective, but I want to compare the code
+to C as much as possible and say where it would be better to implement
+something in C and when it would be better to do so in C++.
 
 # How to run C code
 
