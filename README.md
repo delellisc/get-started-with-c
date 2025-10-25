@@ -6,14 +6,26 @@ bibliography:
 title: Beginner at C/C++
 ---
 
-# Introduction to C++
+# Introduction to C/C++
+
+## What is C
+
+C is a programming language first found in...
 
 ## What is C++
 
-C++ is a object oriented programming language being used in the most
-diverse applications. For this reason it is called a **general purpose
-language**. It is a superset of C, being a extension including object
-oriented features that C lacks.
+C++ is a *object-oriented programming language* being used in the most
+diverse applications. For this reason it is called a *general purpose
+language* . It is a *superset* of the C programming language, being a
+extension including object oriented features that C lacks.
+
+C++ was originally called "C with classes" and was concepted when Bjarne
+Stroustrup, a computer scientist, thought that it would be cool to add
+object-oriented concepts to C. He then added classes, virtual functinos,
+operator overloading, multiple inheritance, templates and exception
+handling. This was how C++ was born.
+
+Some other features introduced by C++ were:
 
 ## Why use C++
 
