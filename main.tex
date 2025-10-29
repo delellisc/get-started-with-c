@@ -83,6 +83,23 @@ If you click to open the file just created, the pop-up in Figure 1 will appear. 
 
 % -----|-----|-----|-----|-----|-----|-----|-----|-----|-----
 
+\subsection{Installing the GCC compiler}
+If we setup VSCode like above, it will actually have everything out of the box for you. You can just click the run/build button and your code will be compiled and run. However, if we wanna run the code via terminal or compile it manually, we need a compiler. Most Linux installation have GCC by default. Ubuntu is one of them. However, if you are using a stripped down version or other distro that lacks the tool, we have to run the following command:
+
+\begin{minted}{bash}
+# Ubuntu installation
+sudo apt update && sudo apt install build-essential -y
+\end{minted}
+
+This will install the tools necessary for compiling both C and C++ code. To check the installation, we only need to run the commands:
+
+\begin{minted}{bash}
+gcc --version
+g++ --version
+\end{minted}
+
+% -----|-----|-----|-----|-----|-----|-----|-----|-----|-----
+
 \subsection{Running your first program}
 Running C code is a fairly simple process. We shall now see the steps needed for doing so. First, we create a file:
 \begin{minted}{bash}
